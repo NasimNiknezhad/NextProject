@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: 
+
+# https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots

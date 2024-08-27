@@ -1,0 +1,29 @@
+.newsletter-form {
+	display: grid;
+	gap: 1rem;
+	justify-content: start;
+	border: 2px solid var(--text-color);
+	width: 30rem;
+	max-width: 100%;
+	padding: 1rem;
+
+	.newsletter-form__input-wrapper {
+		label {
+			font-weight: bold;
+			display: block;
+		}
+	}
+
+	.newsletter-form__mode {
+		display: flex;
+		gap: 1rem;
+	}
+
+	/* 	&:not(:has([value='subscribe']:checked)) .subscribe-only {
+		display: none;
+	} */
+}
+
+/* body:has([value='subscribe']:checked) .site-header__title {
+	transform: rotate(180deg);
+} */

@@ -1,0 +1,8 @@
+/* Hier Komponenten importieren */
+@import './news.css';
+@import './shuffleText.css';
+@import './leaflet.css';
+@import './downshift.css';
+@import './location-finder.css';
+@import './newsletter-form.css';
+@import './shop.css';

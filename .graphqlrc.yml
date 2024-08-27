@@ -1,0 +1,5 @@
+# Für Syntax-Higlighting und Autocomplete dieses Plugin installieren
+# und bei schema die URL des GraphQL-Endpunktes eintragen:
+# https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql
+schema: 'https://react.webworker.berlin/graphql'
+documents: 'app/**/*.{graphql,js,ts,jsx,tsx}'

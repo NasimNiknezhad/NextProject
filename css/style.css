@@ -1,0 +1,25 @@
+/*  Alternative normalize-Version von open-props: */
+/*  @import '../node_modules/open-props/normalize.min.css'; */
+@import 'normalize';
+@import 'globals/queries';
+@import 'globals/colors';
+@import 'layout';
+@import 'navigation';
+@import 'typographie';
+@import 'components';
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.full-width-image {
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	margin-block: 2rem;
+	width: 100%;
+	max-width: 20rem;
+}
