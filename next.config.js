@@ -1,3 +1,5 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
@@ -32,7 +34,3 @@ const nextConfig = {
 
 
 export default nextConfig;
-
-
-
-
