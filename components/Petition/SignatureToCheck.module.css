@@ -1,0 +1,9 @@
+.signature {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1em;
+  padding: 0.5em;
+  &:nth-child(odd) {
+    background-color: var(--gray-2);
+  }
+}

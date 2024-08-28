@@ -1,0 +1,38 @@
+.heading {
+  text-align: center;
+}
+
+.image {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 30rem;
+  display: block;
+  box-shadow: var(--shadow-5);
+}
+
+.intro {
+  margin-inline: auto;
+  font-family: var(--font-mono);
+}
+
+.list {
+  li {
+    list-style-position: inside;
+    padding: 0.5em;
+    &:nth-child(odd) {
+      background-color: var(--gray-2);
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  text-transform: uppercase;
+  font-family: var(--font-mono);
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,46 @@
+.form {
+  background-color: var(--blue-3);
+  padding: var(--size-fluid-3);
+  box-shadow: var(--shadow-3);
+
+  [type='submit'] {
+    font-weight: bold;
+    padding: var(--size-fluid-1);
+
+    display: block;
+    border: 1px solid currentColor;
+    background: var(--green-4);
+    box-shadow: var(--shadow-3);
+
+    &:focus-visible,
+    &:hover {
+      background-color: var(--green-1);
+    }
+  }
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-fluid-3);
+  margin-block-end: var(--size-fluid-3);
+}
+
+.inputWrapper {
+  flex: 1;
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  input {
+    width: 100%;
+    min-width: 20ch;
+  }
+}
+
+.message {
+  display: block;
+  &:not(:empty) {
+    margin-block-start: var(--size-fluid-3);
+  }
+}

@@ -48,6 +48,10 @@ const linkTargets = [
     text: 'Standorte',
     url: '/standorte',
   },
+  {
+    text: 'Petition',
+    url: '/petition',
+  },
 ] satisfies LinkTarget[];
 
 /* 
